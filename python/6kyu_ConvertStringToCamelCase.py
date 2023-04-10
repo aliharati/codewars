@@ -10,5 +10,5 @@ def to_camel_case(text):
         try:
             word_list[i] = word_list[i][0].upper() + word_list[i][1:]
         except:
-            break;
+            break
     return ''.join(word_list)
